@@ -1,0 +1,39 @@
+
+
+####################################################################################################
+
+# Encryption Server
+
+# Using YAML's "yes" and "no" keywords for booleans would be preferred because
+# it sounds more natural, however, the JS-YAML module for Node.js does not
+# support these keywords unless they are cast as boolean, which looks clumsy.
+# Therefore we are using JS-YAML's keywords of "true" (yes) and "false" (no).
+
+####################################################################################################
+
+# The host address for the encryption server.
+# encryption_server_host: string
+encryption_server_host: "127.0.0.1"
+
+#···································································································
+
+# The port for the encryption server.
+# encryption_server_port: integer
+encryption_server_port: 10000
+
+#···································································································
+
+# The keys for encrypting and decrypting data.
+# encryption_keys: array of objects
+#                    {
+#                    name: string, the name of the key
+#                    key: string, the symmetric encryption key
+#                    }
+encryption_keys:
+  - name: "example_key"
+    key: "ec6a21946fd0e3a97cfcc91664f8837b27159c73b5bf217e8e74688cf3404910"
+  - name: "another_example_key"
+    key: "f52b44624f38eebf2ec4368007aadb64110009501d20e9f60fc5ebc1c1028967"
+
+####################################################################################################
+
