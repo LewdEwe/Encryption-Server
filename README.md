@@ -13,13 +13,17 @@ The Sodium library documentation is at https://download.libsodium.org/doc/.
 
 ## Dependencies
 
-**flow** https://www.npmjs.com/package/flow
-**js-yaml** https://www.npmjs.com/package/js-yaml
-**sodium** https://www.npmjs.com/package/sodium
+Module | URL
+-|-
+**flow** | https://www.npmjs.com/package/flow  
+**js-yaml** | https://www.npmjs.com/package/js-yaml  
+**sodium** | https://www.npmjs.com/package/sodium
 
-The Sodium NPM package will compile the C++ Sodium library. If you find you are getting compiler errors and you are the root user then either install without root privileges or try adding the ```--unsafe-perm``` flag:
+The Sodium NPM package will compile the C++ Sodium library. If you find you are getting compiler errors and you are the root user then either install without root privileges or try adding the `--unsafe-perm` flag:
 
-```npm install sodium --save --unsafe-perm```
+```bash
+npm install sodium --save --unsafe-perm
+```
 
 https://github.com/paixaop/node-sodium/issues/99
 
@@ -27,13 +31,13 @@ https://github.com/paixaop/node-sodium/issues/99
 
 You can install with NPM:
 
-```
+```bash
 npm install @lewdewe/encryption-server
 ```
 
 Or you can clone from one of the repositories:
 
-```
+```bash
 git clone https://erikwallace-lewdewe@bitbucket.org/lewdeweltd/lewdewe-encryption-server.git
 
 ```
