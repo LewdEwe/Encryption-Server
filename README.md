@@ -15,9 +15,9 @@ The Sodium library documentation is at https://download.libsodium.org/doc/.
 
 Node Module | URL
 -|-
-**flow** | https://www.npmjs.com/package/flow  
-**js-yaml** | https://www.npmjs.com/package/js-yaml  
-**sodium** | https://www.npmjs.com/package/sodium
+flow | https://www.npmjs.com/package/flow  
+js-yaml | https://www.npmjs.com/package/js-yaml  
+sodium | https://www.npmjs.com/package/sodium
 
 The Sodium NPM package will compile the C++ Sodium library. If you find you are getting compiler errors and you are the root user then either install without root privileges or try adding the `--unsafe-perm` flag:
 
