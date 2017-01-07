@@ -58,7 +58,7 @@ node main.js
 
 For daemonisation and automatic start-up on boot I have included a PM2 configuration file in the package. For more details on PM2 see their project page:
 
-<i class="icon-link"></i> https://www.npmjs.com/package/pm2
+https://www.npmjs.com/package/pm2
 
 If you're going to use PM2 then be sure to edit the `pm2_config.json` file and set suitable paths for the log files.
 
