@@ -14,7 +14,7 @@ The Sodium library documentation is at https://download.libsodium.org/doc/.
 ## Dependencies
 
 Node Module | URL
--|-
+---|---
 flow | https://www.npmjs.com/package/flow  
 js-yaml | https://www.npmjs.com/package/js-yaml  
 sodium | https://www.npmjs.com/package/sodium
