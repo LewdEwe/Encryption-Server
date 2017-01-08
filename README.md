@@ -38,8 +38,7 @@ npm install @lewdewe/encryption-server
 Or you can clone from one of the repositories:
 
 ```bash
-git clone https://erikwallace-lewdewe@bitbucket.org/lewdeweltd/lewdewe-encryption-server.git
-
+git clone https://github.com/LewdEwe/Encryption-Server.git
 ```
 
 ## Configuration
